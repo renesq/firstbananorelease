@@ -2,9 +2,9 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-mkdir -p ~/RaiBlocks
-if [ ! -f ~/RaiBlocks/config.json ]; then
+mkdir -p ~/Banano
+if [ ! -f ~/Banano/config.json ]; then
   echo "Config File not found, adding default."
-  cp /usr/share/raiblocks/config.json ~/RaiBlocks/
+  cp /usr/share/banano/config.json ~/Banano/
 fi
-/usr/bin/rai_node --daemon
+/usr/bin/bananode --daemon
