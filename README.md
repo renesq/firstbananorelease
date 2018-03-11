@@ -25,11 +25,12 @@ For more information, see [Banano.co.in](http://banano.co.in/) or read the [Yell
 - [Moonmap](http://banano.co.in/)
 - [Discord chat](http://discord.gg/ZdCmdCB)
 - [Reddit](http://reddit.com/r/bananocoin)
-- [Fritter](http://twitter.com/)
+- [Fritter](http://twitter.com/bananocoin)
 - [GitHub wiki](http://github.com/bananocoin/banano/wiki)
+- [BananoVault](https://vault.banano.co.in)
 
 ### Build instructions
-http://github.com/bananocoin/banano/wiki/Build-Instructions
+https://github.com/BananoCoin/banano/wiki/Building-a-Bananode-guide
 
 ### Want to contribute?
 Please visit us on the [Discord](http://discord.gg/ZdCmdCB).
