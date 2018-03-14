@@ -326,7 +326,7 @@ public:
 	uint64_t error_count;
 	rai::message_statistics incoming;
 	rai::message_statistics outgoing;
-	static uint16_t const node_port = rai::rai_network == rai::rai_networks::rai_live_network ? 7075 : 54000;
+	static uint16_t const node_port = rai::rai_network == rai::rai_networks::rai_live_network ? 7071 : 54001;
 };
 class logging
 {

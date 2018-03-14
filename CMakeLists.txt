@@ -482,7 +482,7 @@ if (BANANO_GUI)
 		set (CPACK_NSIS_PACKAGE_NAME "Banano ${CPACK_PACKAGE_VERSION_MAJOR}.${CPACK_PACKAGE_VERSION_MINOR}.${CPACK_PACKAGE_VERSION_PATCH}")
 		set (CPACK_NSIS_URL_INFO_ABOUT "https://banano.co.in")
 		set (CPACK_NSIS_CONTACT "millsii3@banano.co.in")
-		set (CPACK_NSIS_MENU_LINKS "babanano_wallet.exe" "Banano Wallet" "https://banano.co.in" "Banano website")
+		set (CPACK_NSIS_MENU_LINKS "banano_wallet.exe" "Banano Wallet" "https://banano.co.in" "Banano website")
 		set (CPACK_NSIS_ENABLE_UNINSTALL_BEFORE_INSTALL ON)
 		get_target_property (Qt5WindowsPlugin Qt5::QWindowsIntegrationPlugin LOCATION)
 		get_filename_component (Qt5_bin_DIR ${Qt5_DIR}/../../../bin ABSOLUTE)
@@ -495,7 +495,7 @@ if (BANANO_GUI)
 		install (FILES ${Qt5_bin_DIR}/Qt5WinExtras.dll DESTINATION .)
 		install (FILES ${Qt5WindowsPlugin} DESTINATION platforms)
 	else ()
-		install(TARGETS babanano_wallet bananode banano_lib
+		install(TARGETS banano_wallet bananode banano_lib
 				RUNTIME DESTINATION bin
 				LIBRARY DESTINATION lib
 				ARCHIVE DESTINATION lib
